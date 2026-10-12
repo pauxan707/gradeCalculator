@@ -1,0 +1,10 @@
+{
+  "id": "grade-calculator",
+  "name": "Grade Calculator",
+  "version": "1.0.0",
+  "minAppVersion": "1.5.0",
+  "description": "Weighted grade calculator: your current average and the grade you still need to pass.",
+  "author": "Antonella Amaro",
+  "authorUrl": "https://github.com/pauxan707",
+  "isDesktopOnly": false
+}

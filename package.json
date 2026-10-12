@@ -1,18 +1,20 @@
 {
   "name": "plugin-gradecalculator",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "description": "Weighted grade calculator for Obsidian",
+  "main": "main.js",
+ "scripts": {
+  "dev": "node esbuild.config.mjs",
+  "build": "tsc --noEmit --skipLibCheck && node esbuild.config.mjs production",
+  "test": "vitest run"
+},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/pauxan707/plugin-gradeCalculator.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["obsidian", "obsidian-plugin", "grades"],
+  "author": "Antonella Amaro",
+  "license": "MIT",
   "type": "commonjs",
   "bugs": {
     "url": "https://github.com/pauxan707/plugin-gradeCalculator/issues"
