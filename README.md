@@ -1,4 +1,4 @@
-# Grade Calculator
+# Grade Calculator - En proceso
 
 Calculadora de notas ponderadas para [Obsidian](https://obsidian.md). Escribes tus evaluaciones en las propiedades de la nota de cada materia y el plugin calcula tu promedio y **la nota que necesitas en lo que falta para aprobar**.
 
@@ -85,7 +85,7 @@ Escala máxima y nota de aprobación por defecto (cada nota puede sobrescribirla
 ## Instalación manual
 
 1. `npm install && npm run build`
-2. Copiar `main.js`, `manifest.json` y `styles.css` a `<tu vault>/.obsidian/plugins/grade-planner/`
+2. Copiar `main.js`, `manifest.json` y `styles.css` a `<tu vault>/.obsidian/plugins/gradeCalculator/`
 3. Activa el plugin en *Ajustes → Plugins de la comunidad*.
 
 ## Desarrollo
